@@ -1,0 +1,15 @@
+.cards{
+    display: flex;
+    gap: 30px;
+}
+
+.card{
+    background: var(--color-white);
+    width: 33%;
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    text-align: center;
+    box-shadow: 1rem 1.5rem 3.5rem;
+    transform: all 300ms ease;
+    margin: 30px;
+}

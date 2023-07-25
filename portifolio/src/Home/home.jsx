@@ -22,19 +22,24 @@ function Home() {
     </header>
 
     <main>
-    <section>
-        <ul className='left' >
+      <section className='home'>
+         <section>
+           <ul className='left' >
             <li><a href="#"><img src={Instagram} alt=""/></a></li>
             <li><a href="#"><img src={GitHub} alt=""/></a></li>
             <li><a href="#"><img src={Linkedin} alt=""/></a></li>
-        </ul>
-    </section>
+           </ul>
+        </section>
 
-    <section className='center' >
-      <h1>I'M Willian Reis</h1>
-      <p>Web Developer</p>
+         <section className='center' >
+             <h1>I'M Willian Reis</h1>
+           <p>Web Developer</p>
   
-    </section>
+      </section>
+      </section>
+
+      
+    
 
     </main>
     
