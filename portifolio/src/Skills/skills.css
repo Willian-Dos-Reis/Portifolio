@@ -3,13 +3,32 @@
     gap: 30px;
 }
 
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.skills > h1{
+    color: var(--color-primary);
+}
+
+.skills > p{
+    padding: 10px 50px;
+}
+
+.cards{
+    margin-top: 50px;
+}
 .card{
     background: var(--color-white);
     width: 33%;
     border-radius: var(--card-border-radius);
     padding: var(--card-padding);
     text-align: center;
-    box-shadow: 1rem 1.5rem 3.5rem;
+    box-shadow: 1rem 1.5rem 3.8rem rgba(0, 0, 0, 0.144); 
     transform: all 300ms ease;
     margin: 30px;
 }
