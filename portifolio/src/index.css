@@ -1,8 +1,9 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
  
-  --color-primary:rgb(77,74,239);
-  --color-white:#fff;
+  --color-primary:#060919;
+  --color-white:#191b2a;
+  --color-font-primary:#fff;
   --card-border-radius:0.8rem;
   --card-padding:1.8rem;
  

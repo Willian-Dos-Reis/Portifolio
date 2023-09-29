@@ -6,11 +6,14 @@
     margin: 0;
     font-family: poppins, sans-serif;
     list-style: none;
+    color: var(--color-font-primary);
 }
-
+.home{
+    background-color: var(--color-primary);
+}
 .top{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 25px;
     margin: 20px;
     align-items: center;
@@ -19,7 +22,7 @@
 
 a{
     text-decoration: none;
-    color: black;
+  
 }
 
 button{
@@ -37,7 +40,7 @@ button:hover{
     transition: 1s;
 }
 
-.home{
+.center{
     display: flex;
 }
 
@@ -53,7 +56,7 @@ li > a > img{
     
 }
 
-.center{
+.title{
     display: flex;
     flex-direction: column;
     align-items: center;
